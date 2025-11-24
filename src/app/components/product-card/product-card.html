@@ -1,0 +1,9 @@
+<div class="card">
+  <img [src]="produto.image" alt="{{ produto.title }}" class="card-img" />
+
+  <h3 class="card-title">{{ produto.title }}</h3>
+
+  <p class="card-price">
+    R$ {{ produto.price | number:'1.2-2' }}
+  </p>
+</div>
